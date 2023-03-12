@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.bayan {
+
+}
+
+.bayan-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.bayan-item__input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 1;
+}
+
+.bayan-item__input:checked ~ .bayan-item__title {
+    background-color: #eee;
+
+}
+
+.bayan-item__input:checked ~ .bayan-item__content {
+    background-color: #eee;
+    display: block;
+}
+
+.bayan-item__title {
+    display: block;
+    padding: 20px;
+    color: blue;
+    font-size: 34px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.bayan-item__title:hover {
+    color: black;
+}
+
+.bayan-item__content {
+    padding: 20px;
+    border: 1px solid black;
+    border-top: none;
+    display: none;
+}
+
+
+
+
+
